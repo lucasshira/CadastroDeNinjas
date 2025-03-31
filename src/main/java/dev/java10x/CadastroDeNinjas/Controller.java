@@ -11,7 +11,7 @@ public class Controller {
 
     @GetMapping("/boasvindas")
     public String boasVindas() {
-        return "Essa eh minha primeira mensagem!";
+        return "Essa eh minha primeira mensagem";
     }
 
 }
