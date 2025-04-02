@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 // usando anotation para avisar ao Sring que isso eh uma API Rest de Contolador
 @RestController
 @RequestMapping
-public class Controller {
+public class NinjaController {
 
     @GetMapping("/boasvindas")
     public String boasVindas() {
